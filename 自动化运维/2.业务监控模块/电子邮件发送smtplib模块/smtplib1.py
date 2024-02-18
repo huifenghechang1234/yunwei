@@ -1,7 +1,7 @@
 """
 title = ''
 author = 'huifenghechang'
-mtime = '2023/12/10'
+mtime = '2023/12/27'
 code is far away from bugs with the god animal protecting
 I love animals. They taste delicious.
 ┏┓      ┏┓
@@ -18,31 +18,58 @@ I love animals. They taste delicious.
 ┗┻┛  ┗┻┛
 """
 """
-SMTP类定义
-smtplib.SMTP([host[,port[,local_hostname[,timeout]]]])
-
-参数说明：
-host: SMTP服务器主机。 你可以指定主机的ip地址或者域名如: runoob.com，这个是可选参数。
-port: 如果你提供了host参数, 你需要指定SMTP服务使用的端口号，一般情况下SMTP端口号为25。
-local_hostname: 如果SMTP在你的本机上，你只需要指定服务器地址为localhost即可
+email.mime理解成smtplib模块邮件内容主体的扩展，从原先默认只支持纯文本格式扩展到HTML，
+同时支持附件、音频、图像等格式，smtplib只负责邮件的投递即可
 """
-import smtplib
 
-# smtpObj = smtplib.SMTP([host[, port[, local_hostname]]] )
-# # smtpObj = smtplib.SMTP_SSL( [host [, port [, local_hostname]]] )
-#
-#
-# #################### 示例一
-# smtp = smtplib.SMTP()
-# smtp.connect([host[, port]])  # 连接远程smtp主机方法，host为远程主机地址，port为远程主机smtp端口，默认为25，也可以直接使用host:port形式来表示，例如：SMTP.connect("smtp.163.com","25")
-# smtp.starttls()  # 开启安全传输模式
-# smtp.login("test@arcvideo.com", "pwd")  # 邮箱账号登录校验
-# smtp.sendmail(FROM, [TO], BODY)  # 电子邮件发送smtplib模块
-# smtp.quit()  # 断开smtp连接
-#
-# #################### 示例二
-# smtp = smtplib.SMTP([host[, port]])
-# smtp.login("test@arcvideo.com", "pwd")  # 邮箱账号登录校验
-# smtp.set_debuglevel(1)  # 打印出和SMTP服务器交互的所有信息。
-# smtp.sendmail(FROM, [TO], BODY)  # 电子邮件发送smtplib模块
-# smtp.quit()  # 断开smtp连接
+import smtplib
+from email.mime.text import MIMEText
+from email.utils import formataddr
+
+# 发件人
+from_name = "Hehuyi_In"
+# 发件邮箱
+from_addr = "xxxxx@qq.com"
+# 发件邮箱授权码，注意不是QQ邮箱密码
+from_pwd = "jjjjjjjjjj"
+# 收件邮箱
+to_addr = "yyyyyy@qq.com"
+
+# 邮件标题
+my_title = "Hehuyi Test"
+# 邮件正文
+my_msg = "Hello World"
+
+# MIMEText三个主要参数
+# 1. 邮件内容
+# 2. MIME子类型，plain表示text类型
+# 3. 邮件编码格式，使用"utf-8"避免乱码
+msg = MIMEText(my_msg, 'plain', 'utf-8')
+msg['From'] = formataddr([from_name, from_addr])
+# 邮件的标题
+msg['Subject'] = my_title
+
+# SMTP服务器地址，QQ邮箱的SMTP地址是"smtp.qq.com"
+smtp_srv = "smtp.qq.com"
+
+try:
+    # 不能直接使用smtplib.SMTP来实例化，第三方邮箱会认为它是不安全的而报错
+    # 使用加密过的SMTP_SSL来实例化，它负责让服务器做出具体操作，它有两个参数
+    # 第一个是服务器地址，但它是bytes格式，所以需要编码
+    # 第二个参数是服务器的接受访问端口，SMTP_SSL协议默认端口是465
+    srv = smtplib.SMTP_SSL(smtp_srv.encode(), 465)
+
+    # 使用授权码登录QQ邮箱
+    srv.login(from_addr, from_pwd)
+
+    # 使用sendmail方法来发送邮件，它有三个参数
+    # 第一个是发送地址
+    # 第二个是接受地址，是list格式，可以同时发送给多个邮箱
+    # 第三个是发送内容，作为字符串发送
+    srv.sendmail(from_addr, [to_addr], msg.as_string())
+    print('发送成功')
+except Exception as e:
+    print('发送失败')
+finally:
+    # 无论发送成功还是失败都要退出你的QQ邮箱
+    srv.quit()
