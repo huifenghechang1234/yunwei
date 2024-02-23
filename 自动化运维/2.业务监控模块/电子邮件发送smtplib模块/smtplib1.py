@@ -27,16 +27,16 @@ from email.mime.text import MIMEText
 from email.utils import formataddr
 
 # 发件人
-from_name = "Hehuyi_In"
+from_name = "Hehui_In"
 # 发件邮箱
-from_addr = "xxxxx@qq.com"
+from_addr = "2213024107@qq.com"
 # 发件邮箱授权码，注意不是QQ邮箱密码
-from_pwd = "jjjjjjjjjj"
+from_pwd = "vrvwleaezcrnecih"
 # 收件邮箱
-to_addr = "yyyyyy@qq.com"
+to_addr = "2213204107@qq.com"
 
 # 邮件标题
-my_title = "Hehuyi Test"
+my_title = "Hehui Test"
 # 邮件正文
 my_msg = "Hello World"
 
@@ -73,3 +73,6 @@ except Exception as e:
 finally:
     # 无论发送成功还是失败都要退出你的QQ邮箱
     srv.quit()
+
+
+

@@ -1,0 +1,61 @@
+
+qpython:S1192©"XDefine a constant instead of duplicating this literal "> #### çŠ¶æ€ï¼š%s \n\n" 3 times.(Ö„Æí
+xpython:S1192Ü"ZDefine a constant instead of duplicating this literal 'snmpwalk -v 2c -c public ' 5 times.(Êğí›ùÿÿÿÿ
+}python:S1192€"_Define a constant instead of duplicating this literal 'application/json;charset=UTF-8' 5 times.(ÏÂş¿ùÿÿÿÿ
+ypython:S1192¨"[Define a constant instead of duplicating this literal "> #### æœåŠ¡åï¼š%s \n\n" 3 times.(Ùÿ‹Šşÿÿÿÿ
+gpython:S1192§"IDefine a constant instead of duplicating this literal "### %s\n" 3 times.(¥ªÓÂıÿÿÿÿ
+jpython:S1192§"LDefine a constant instead of duplicating this literal "%Y-%m-%d %X" 3 times.(¥ªÓÂıÿÿÿÿ
+ipython:S1192†"KDefine a constant instead of duplicating this literal '==========' 7 times.(‚í¯ıÿÿÿÿÿ
+Hpython:S58064"+Rename this variable; it shadows a builtin.(ÿ¹Şüÿÿÿÿ
+Hpython:S1481•"/Replace unused local variable "stdin" with "_".(Íá‹£
+Hpython:S1656”"/Remove or correct this useless self-assignment.(ßì¥
+`python:S930¨"HAdd 1 missing arguments; 'walk' expects at least 1 positional arguments.(Ì÷‡
+opython:S1542Û"QRename function "getAllitems" to match the regular expression ^[a-z_][a-z0-9_]*$.(É·£Óıÿÿÿÿ
+kpython:S1542á"MRename function "getDate" to match the regular expression ^[a-z_][a-z0-9_]*$.( ƒÅ‚ÿÿÿÿÿ
+7python:S125è"Remove this commented out code.(èàé
+Tpython:PrintStatementUsage…"-Replace print statement by built-in function.(£Âª’
+Wpython:S905†":Remove or refactor this statement; it has no side effects.(‚í¯ıÿÿÿÿÿ
+Tpython:PrintStatementUsageˆ"-Replace print statement by built-in function.(£Âª’
+7python:S125Š"Remove this commented out code.(¼áÇ
+Tpython:PrintStatementUsageŒ"-Replace print statement by built-in function.(£Âª’
+Rpython:S905":Remove or refactor this statement; it has no side effects.(îõ§÷
+Tpython:PrintStatementUsage"-Replace print statement by built-in function.(£Âª’
+Tpython:PrintStatementUsage"-Replace print statement by built-in function.(£Âª’
+opython:S1542œ"QRename function "getAllitems" to match the regular expression ^[a-z_][a-z0-9_]*$.(É·£Óıÿÿÿÿ
+opython:S1542¼"QRename function "getAllitems" to match the regular expression ^[a-z_][a-z0-9_]*$.(É·£Óıÿÿÿÿ
+kpython:S1542Á"RRename function "getSwapTotal" to match the regular expression ^[a-z_][a-z0-9_]*$.(øçë
+jpython:S1542Æ"QRename function "getSwapUsed" to match the regular expression ^[a-z_][a-z0-9_]*$.(§­•¶
+jpython:S1542Í"QRename function "getMemTotal" to match the regular expression ^[a-z_][a-z0-9_]*$.(·ëé¼
+ipython:S1542Ò"PRename function "getMemUsed" to match the regular expression ^[a-z_][a-z0-9_]*$.(éğ’Š
+opython:S1542ò"QRename function "getAllitems" to match the regular expression ^[a-z_][a-z0-9_]*$.(É·£Óıÿÿÿÿ
+kpython:S1542÷"MRename function "getDate" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÛŠ¢¡øÿÿÿÿ
+opython:S1542ı"QRename function "getRealDate" to match the regular expression ^[a-z_][a-z0-9_]*$.(š†şüÿÿÿÿ
+python:S117‡"iRename this local variable "hrStorageAllocationUnits" to match the regular expression ^[_a-z][a-z0-9_]*$.(ë‰«²
+|python:S117„"_Rename this local variable "hrStorageDescr" to match the regular expression ^[_a-z][a-z0-9_]*$.(´‰×ÿÿÿÿÿÿ
+{python:S117†"^Rename this local variable "hrStorageSize" to match the regular expression ^[_a-z][a-z0-9_]*$.(ŠöëŠøÿÿÿÿ
+vpython:S117…"^Rename this local variable "hrStorageUsed" to match the regular expression ^[_a-z][a-z0-9_]*$.(ğ’şÿ
+xpython:S1542ƒ"ZRename function "caculateDiskUsedRate" to match the regular expression ^[a-z_][a-z0-9_]*$.(‰²†”úÿÿÿÿ
+<python:S125”"Remove this commented out code.(×éúëşÿÿÿÿ
+7python:S125™"Remove this commented out code.(ıã›
+<python:S125¢"Remove this commented out code.(”’ÈŠúÿÿÿÿ
+opython:S1542Î"QRename function "getAllitems" to match the regular expression ^[a-z_][a-z0-9_]*$.(É·£Óıÿÿÿÿ
+ipython:S1542Ô"PRename function "getDevices" to match the regular expression ^[a-z_][a-z0-9_]*$.(÷¶æš
+fpython:S1542à"MRename function "getDate" to match the regular expression ^[a-z_][a-z0-9_]*$.(¸èõ¤
+Tpython:PrintStatementUsageó"-Replace print statement by built-in function.(£Âª’
+Wpython:S905ô":Remove or refactor this statement; it has no side effects.(‚í¯ıÿÿÿÿÿ
+Tpython:PrintStatementUsage÷"-Replace print statement by built-in function.(£Âª’
+Wpython:S905ø":Remove or refactor this statement; it has no side effects.(ÖÓ°Äúÿÿÿÿ
+Tpython:PrintStatementUsageù"-Replace print statement by built-in function.(£Âª’
+lpython:S3776ª"TRefactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.(œŸ²_
+Tpython:PrintStatementUsageÆ"-Replace print statement by built-in function.(£Âª’
+Wpython:S905Ç":Remove or refactor this statement; it has no side effects.(ø ¯ûıÿÿÿÿ
+Tpython:PrintStatementUsageÈ"-Replace print statement by built-in function.(£Âª’
+opython:S117ª"WRename this local variable "genPwd" to match the regular expression ^[_a-z][a-z0-9_]*$.(Öóñ­
+ypython:S117"\Rename this local variable "numOfLetter" to match the regular expression ^[_a-z][a-z0-9_]*$.(®ü»ıÿÿÿÿ
+ppython:S117"YRename this local variable "numOfNum" to match the regular expression ^[_a-z][a-z0-9_]*$.(µÌøx
+ppython:S117§"XRename this local variable "slcChar" to match the regular expression ^[_a-z][a-z0-9_]*$.(™şÑŸ
+rpython:S117¤"ZRename this local variable "slcLetter" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÛŸÑ»
+opython:S117¡"WRename this local variable "slcNum" to match the regular expression ^[_a-z][a-z0-9_]*$.(†¨ôæ
+jpython:S1542›"QRename function "GenPassword" to match the regular expression ^[a-z_][a-z0-9_]*$.(ğİ…ú
+>python:S1481¡"%Remove the unused local variable "i".(†¨ôæ
+>python:S1481¤"%Remove the unused local variable "i".(ÛŸÑ»

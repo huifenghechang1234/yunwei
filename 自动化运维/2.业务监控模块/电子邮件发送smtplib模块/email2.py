@@ -21,6 +21,17 @@ I love animals. They taste delicious.
 发送HTML格式邮件
 本示例通过引入email.mime的MIMEText类来实现支持HTML格式的邮件，支持所有HTML元素，
 包含表格、图片、动画、CSS样式、表单等。使用HTML的表格定制美观的业务报表
+
+通过 emai1.mime.text 导入 MIMEText 类 实现 原有HTML格式的扩展
+	邮件内容的发送格式上
+		邮件内容
+			 -- MIMEText对象("htm1页面内容"，"htm]"，"utf-8")
+		发件人
+			-- MIMEText对象['From']
+		收件人
+			-- MIMEText对象["To"]
+		主题
+			-- MIMEText对象['subject"]
 """
 
 import smtplib
@@ -30,11 +41,11 @@ from email.utils import formataddr
 # 发件人
 from_name = "Hehuyi_In"
 # 发件邮箱
-from_addr = "xxxxxxx@qq.com"
+from_addr = "2213024107@qq.com"
 # 发件邮箱授权码，注意不是QQ邮箱密码
-from_pwd = "jjjjjjj"
+from_pwd = "vrvwleaezcrnecih"
 # 收件邮箱
-to_addr = "xxxxxxx@qq.com"
+to_addr = "2213024107@qq.com"
 
 # 邮件标题
 my_title = "HTML Test"
@@ -62,6 +73,9 @@ my_msg = '''
 # 参数2改为html
 msg = MIMEText(my_msg, 'html', 'utf-8')
 msg['From'] = formataddr([from_name, from_addr])
+# email.utils.formataddr(pair)和parseaddr函数相反，formataddr函数是构建邮件地址的，
+# 传入一个tuple元组，返回str字符串
+
 # 邮件的标题
 msg['Subject'] = my_title
 
@@ -70,13 +84,15 @@ smtp_srv = "smtp.qq.com"
 
 try:
 
-    srv = smtplib.SMTP_SSL(smtp_srv.encode(), 465)
+    srv = smtplib.SMTP_SSL(smtp_srv.encode('utf-8'), 465)
 
     # 使用授权码登录QQ邮箱
     srv.login(from_addr, from_pwd)
 
     # 使用sendmail方法来发送邮件
-    srv.sendmail(from_addr, [to_addr], msg.as_string())
+    srv.sendmail(from_addr, to_addr, msg.as_string())
+    # as_String函数是一个将数据类型转换为字符串类型的函数。它可以将数值、布尔值、对象等转换为字符串，以便于在输出或存储时使用
+
     print('发送成功')
 except Exception as e:
     print('发送失败')

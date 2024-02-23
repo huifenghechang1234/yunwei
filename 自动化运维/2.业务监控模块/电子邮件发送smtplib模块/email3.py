@@ -23,6 +23,21 @@ I love animals. They taste delicious.
 则同时需引用MIMEMultipart类来进行组装。
 
 本示例通过MIMEText与MIMEImage类的组合来实现图文格式邮件的定制
+
+Python发送多附件邮件的基本思路，首先就是用MIMEMultipart()方法来表示这个邮件由多个部分组成。
+然后再通过attach()方法将各部分内容分别加入到MIMEMultipart容器中。MIMEMultipart有attach()方法，
+而MIMENouMultipart没有，只能被attach
+
+通过 emai1.mime.text 导入 MIMEText 类及 MIMEImage类 实现 组合使用
+但是组合使用又依赖于:
+MIMEMultipart 类的使用
+
+关键点：
+邮件内容的发送格式上
+1 MIMEText的内容定制
+2 嵌入方式增加图片
+3 专用的增加图片方式
+smtplib发送邮件的流程基本不变
 """
 
 import smtplib
@@ -32,28 +47,31 @@ from email.mime.image import MIMEImage
 from email.utils import formataddr
 
 # 发件人
-from_name = "Hehuyi_In"
+from_name = "Hehui_In"
 # 发件邮箱
-from_addr = "xxxx@qq.com"
+from_addr = "2213024107@qq.com"
 # 发件邮箱授权码，注意不是QQ邮箱密码
-from_pwd = "xxxxx"
+from_pwd = "vrvwleaezcrnecih"
 # 收件邮箱
-to_addr = "xxxx@qq.com"
+to_addr = "2213024107@qq.com"
 # 邮件标题
 my_title = "HTML+Image Test"
 
 
+# 图片定制方法
 # 添加图片函数，参数1：图片路径，参数2：图片id
-def addimg(src, imgid):
-    fp = open(src, 'rb')  # 打开文件
-    msg_image = MIMEImage(fp.read())  # 创建MIMEImage对象，读取图片内容并作为参数
+def addimg(src, imgid):  # 定义一个名为 addimg 的函数，它接受两个参数：src（图片文件的路径）和 imgid（为图片指定的 Content-ID）
+    fp = open(src, 'rb')  # 打开文件  使用 open 函数以二进制读模式（'rb'）打开指定路径 src 的文件，并将文件对象赋值给 fp
+    msg_image = MIMEImage(fp.read())  # 创建MIMEImage对象，读取图片内容并作为参数  使用 fp.read() 读取文件对象 fp 中的全部内容（即图片的二进制数据）
     fp.close()  # 关闭文件
-    msg_image.add_header('Content-ID', imgid)  # 指定图片文件的Content-ID,<img>标签src用到
-    return msg_image
+    msg_image.add_header('Content-ID',
+                         imgid)  # 指定图片文件的Content-ID,<img>标签src用到  为 msg_image 对象添加一个名为 Content-ID 的头，其值为 imgid
+    return msg_image  # 由于需要加载该图片对象预判到页面中，所以必须返回
 
 
+# 为保证内容可以嵌套其他功能，所以必须更改msg的类型
 # 创建MIMEMultipart对象，采用related定义内嵌资源的邮件体
-msg_multipart = MIMEMultipart('related')
+msg_multipart = MIMEMultipart('related')  # related：构建内嵌资源的邮件体
 
 # 创建MIMEText对象，HTML元素包括表格<table>及图片<img>
 msg_text = MIMEText("""

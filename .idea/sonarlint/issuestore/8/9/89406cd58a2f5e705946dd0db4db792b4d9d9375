@@ -1,0 +1,6 @@
+
+_python:S2208"GImport only needed names or import the module and then use its members.(òèÚÜ
+Epython:S1481%"-Remove the unused local variable "linewidth".(¥ŞÈ‹
+Bpython:S14819"%Remove the unused local variable "i".(®¬Ÿûÿÿÿÿ
+Bpython:S1481P"%Remove the unused local variable "i".(®¬Ÿûÿÿÿÿ
+Bpython:S1481X"%Remove the unused local variable "j".(÷·Ñûÿÿÿÿ

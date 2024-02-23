@@ -1,0 +1,9 @@
+
+6python:S125"Remove this commented out code.(×’’ø
+spython:S117?"WRename this local variable "imgSrc" to match the regular expression ^[_a-z][a-z0-9_]*$.(·™Œ»ûÿÿÿÿ
+upython:S117L"YRename this local variable "judgeNum" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÚÂğıÿÿÿÿ
+dpython:S15423"MRename function "getData" to match the regular expression ^[a-z_][a-z0-9_]*$.(çØ
+]python:S5361V"@Replace this "re.sub()" call by a "str.replace()" function call.(­Ü•çşÿÿÿÿ
+dpython:S1542^"LRename function "askURL" to match the regular expression ^[a-z_][a-z0-9_]*$.(²¼–×
+fpython:S1542r"NRename function "saveData" to match the regular expression ^[a-z_][a-z0-9_]*$.(šÜÍ
+<python:S125”"Remove this commented out code.(íæÛçşÿÿÿÿ

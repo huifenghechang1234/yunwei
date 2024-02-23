@@ -1,0 +1,12 @@
+
+_python:S2208!"GImport only needed names or import the module and then use its members.(øÿˆÊ
+/python:S1700/"Rename field "map"(³·×¯úÿÿÿÿ
+Bpython:S1481/"%Remove the unused local variable "i".(³·×¯úÿÿÿÿ
+Bpython:S1481/"%Remove the unused local variable "i".(³·×¯úÿÿÿÿ
+qpython:S3776>"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(†ñçÅøÿÿÿÿ
+lpython:S3776X"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÜüçÏ
+fpython:S100g"JRename method "moveUp" to match the regular expression ^[a-z_][a-z0-9_]*$.(ë¶ªÒùÿÿÿÿ
+ipython:S100o"MRename method "moveRight" to match the regular expression ^[a-z_][a-z0-9_]*$.(‡‡üõúÿÿÿÿ
+cpython:S100w"LRename method "moveDown" to match the regular expression ^[a-z_][a-z0-9_]*$.(·†ì¶
+hpython:S100"LRename method "moveLeft" to match the regular expression ^[a-z_][a-z0-9_]*$.(™âáÙüÿÿÿÿ
+Cpython:S1481£"%Remove the unused local variable "i".(ŽÖÀ‰úÿÿÿÿ

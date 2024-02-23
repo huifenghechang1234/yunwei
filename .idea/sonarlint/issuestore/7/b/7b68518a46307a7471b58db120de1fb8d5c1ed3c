@@ -1,0 +1,42 @@
+
+_python:S2208("GImport only needed names or import the module and then use its members.(ï€¢
+_python:S2208)"GImport only needed names or import the module and then use its members.(†åÿ·
+ipython:S1542>"LRename function "IsLink" to match the regular expression ^[a-z_][a-z0-9_]*$.(ŒùÉåÿÿÿÿÿ
+ipython:S1542I"LRename function "IsSame" to match the regular expression ^[a-z_][a-z0-9_]*$.(‘·¸ÿÿÿÿÿ
+6python:S125i"Remove this commented out code.(’„‚
+;python:S125u"Remove this commented out code.(µ¬àÈşÿÿÿÿ
+<python:S125€"Remove this commented out code.(Ûïõøÿÿÿÿ
+upython:S117š"]Rename this local variable "Select_first" to match the regular expression ^[_a-z][a-z0-9_]*$.(—Òœ–
+qpython:S1542"SRename function "clearTwoBlock" to match the regular expression ^[a-z_][a-z0-9_]*$.(ëèÆçüÿÿÿÿ
+Ipython:S1481š"0Remove the unused local variable "Select_first".(—Òœ–
+hpython:S1542"ORename function "drawQiPan" to match the regular expression ^[a-z_][a-z0-9_]*$.(ªæ…û
+Ipython:S5806¬"+Rename this variable; it shadows a builtin.(›İöŸøÿÿÿÿ
+tpython:S117À"\Rename this local variable "absDistance" to match the regular expression ^[_a-z][a-z0-9_]*$.(ªÙñ×
+xpython:S117Á"[Rename this local variable "spaceCount" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ü«ÿƒûÿÿÿÿ
+mpython:S1542¿"ORename function "lineCheck" to match the regular expression ^[a-z_][a-z0-9_]*$.(ˆ–ƒúÿÿÿÿ
+rpython:S3776¿"TRefactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.(ˆ–ƒúÿÿÿÿ
+opython:S117ı"WRename this local variable "checkP" to match the regular expression ^[_a-z][a-z0-9_]*$.(— ò
+upython:S117ÿ"XRename this local variable "checkP2" to match the regular expression ^[_a-z][a-z0-9_]*$.(ËĞÀŒÿÿÿÿÿ
+qpython:S1542û"SRename function "OneCornerLink" to match the regular expression ^[a-z_][a-z0-9_]*$.(°ŸĞ‘úÿÿÿÿ
+tpython:S117¡"WRename this local variable "checkP" to match the regular expression ^[_a-z][a-z0-9_]*$.(øÿôµüÿÿÿÿ
+lpython:S1542 "SRename function "TwoCornerLink" to match the regular expression ^[a-z_][a-z0-9_]*$.(·Ò®Ã
+mpython:S3776 "TRefactor this function to reduce its Cognitive Complexity from 56 to the 15 allowed.(·Ò®Ã
+jpython:S1542ë"RRename function "drawLinkLine" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÎöÉL
+ppython:S1542€"WRename function "undrawConnectLine" to match the regular expression ^[a-z_][a-z0-9_]*$.(©ùÚÆ
+lpython:S1542†"NRename function "drawLine" to match the regular expression ^[a-z_][a-z0-9_]*$.(ôîòÅÿÿÿÿÿ
+Ipython:S5806‰"+Rename this variable; it shadows a builtin.(´³ÏŠúÿÿÿÿ
+tpython:S117“"WRename this local variable "tmpMap" to match the regular expression ^[_a-z][a-z0-9_]*$.(®†ÎÈıÿÿÿÿ
+Cpython:S1481—"%Remove the unused local variable "i".(É¹şÿÿÿÿÿ
+7python:S125‘"Remove this commented out code.(°ÇÄ·
+tpython:S117¤"WRename this local variable "bFound" to match the regular expression ^[_a-z][a-z0-9_]*$.(š “€øÿÿÿÿ
+opython:S117£"WRename this local variable "m_nCol" to match the regular expression ^[_a-z][a-z0-9_]*$.(¸ ‚ó
+opython:S117¢"WRename this local variable "m_nRoW" to match the regular expression ^[_a-z][a-z0-9_]*$.(ğ¡åˆ
+{python:S117Ä"cRename this local variable "secondSelectRectId" to match the regular expression ^[_a-z][a-z0-9_]*$.(Â´´İ
+ipython:S1542 "PRename function "find2Block" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÉÌÌ
+Opython:S1481Ä"6Remove the unused local variable "secondSelectRectId".(Â´´İ
+mpython:S3776 "TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÉÌÌ
+7python:S125Å"Remove this commented out code.(÷™£ª
+>python:S1481×"%Remove the unused local variable "x".(ËüÊº
+>python:S1481×"%Remove the unused local variable "y".(ËüÊº
+Cpython:S1481Ø"%Remove the unused local variable "x".( Ÿ°úÿÿÿÿ
+Cpython:S1481Ø"%Remove the unused local variable "y".( Ÿ°úÿÿÿÿ

@@ -1,0 +1,6 @@
+
+hpython:S1192b"PDefine a constant instead of duplicating this literal "Age Gender Demo" 3 times.(ËøÚº
+spython:S117$"\Rename this local variable "frameHeight" to match the regular expression ^[_a-z][a-z0-9_]*$.(œ°åÊ
+vpython:S117#"_Rename this local variable "frameOpencvDnn" to match the regular expression ^[_a-z][a-z0-9_]*$.(¨¤Ê
+wpython:S117%"[Rename this local variable "frameWidth" to match the regular expression ^[_a-z][a-z0-9_]*$.(¬«Úãûÿÿÿÿ
+hpython:S1542!"PRename function "getFaceBox" to match the regular expression ^[a-z_][a-z0-9_]*$.(í¡ñ
