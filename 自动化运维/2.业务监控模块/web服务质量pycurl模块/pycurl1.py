@@ -19,7 +19,6 @@
 # """
 
 """
-第一种方法
 使用pycurl的setopt与getinfo方法时间HTTP服务质量的探测，获取监控URL返回的HTTP状态码,
 HTTP状态码采用pycurl.HTTP_CODE常量，以及从HTTP请求到下载期间各环节的响应时间，通过
 pycurl.NAMELOOKUP_TIME、pycurl.CONNECT_TIME、pycurl.PRETRANSFER_TIME、pycurl.R
