@@ -1,0 +1,5 @@
+ 2018-06-07 21:09:51 lx_log1.py[line:9] DEBUG debug message
+ 2018-06-07 21:09:51 lx_log1.py[line:10] INFO info message
+ 2018-06-07 21:09:51 lx_log1.py[line:11] WARNING warning message
+ 2018-06-07 21:09:51 lx_log1.py[line:12] ERROR error message
+ 2018-06-07 21:09:51 lx_log1.py[line:13] CRITICAL critical message

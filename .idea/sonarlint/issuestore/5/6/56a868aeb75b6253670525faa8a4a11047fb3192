@@ -1,0 +1,11 @@
+
+fpython:S2208
+"GImport only needed names or import the module and then use its members.(Òí8Ç¶ºŒá1
+kpython:S2208"GImport only needed names or import the module and then use its members.(³Àš‰ıÿÿÿÿ8È¶ºŒá1
+Bpython:S125"Remove this commented out code.(ëüµòùÿÿÿÿ8È¶ºŒá1
+wpython:S6556"SUse an explicit context instead of passing "locals()" to this Django "render" call.(¨€°øıÿÿÿÿ8È¶ºŒá1
+wpython:S65567"SUse an explicit context instead of passing "locals()" to this Django "render" call.(ŸÒ‚úÿÿÿÿ8È¶ºŒá1
+wpython:S6556M"SUse an explicit context instead of passing "locals()" to this Django "render" call.(Æ×Ë±ıÿÿÿÿ8È¶ºŒá1
+rpython:S6556`"SUse an explicit context instead of passing "locals()" to this Django "render" call.(Ğ¿á¯8È¶ºŒá1
+rpython:S6556e"SUse an explicit context instead of passing "locals()" to this Django "render" call.(ÀŸÍº8È¶ºŒá1
+qpython:S6556{"SUse an explicit context instead of passing "locals()" to this Django "render" call.(ì»ôr8È¶ºŒá1

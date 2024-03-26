@@ -1,4 +1,0 @@
-
-hpython:S1192B"KDefine a constant instead of duplicating this literal '%d bytes/s' 3 times.(µ•›çıÿÿÿÿ
-epython:S117"ORename this parameter "URL" to match the regular expression ^[_a-z][a-z0-9_]*$.(©í5
-dpython:S1542"MRename function "getInfo" to match the regular expression ^[a-z_][a-z0-9_]*$.(©í5

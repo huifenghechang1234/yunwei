@@ -1,0 +1,12 @@
+
+kpython:S100"MRename method "UserLogin" to match the regular expression ^[a-z_][a-z0-9_]*$.(ºéãÛ8ÏÑ–Œá1
+rpython:S100"ORename method "PostRequest" to match the regular expression ^[a-z_][a-z0-9_]*$.(íª ®ùÿÿÿÿ8ÏÑ–Œá1
+Bpython:S125$"Remove this commented out code.(áĞêıÿÿÿÿ8ÏÑ–Œá1
+Rpython:S1172*".Remove the unused function parameter "hostip".(¥îÌ‚ûÿÿÿÿ8ÏÑ–Œá1
+npython:S100*"KRename method "HostGet" to match the regular expression ^[a-z_][a-z0-9_]*$.(¥îÌ‚ûÿÿÿÿ8ÏÑ–Œá1
+qpython:S100F"NRename method "HostCreate" to match the regular expression ^[a-z_][a-z0-9_]*$.(æéµıÿÿÿÿ8ÏÑ–Œá1
+npython:S100g"PRename method "HostGroupGet" to match the regular expression ^[a-z_][a-z0-9_]*$.(¨œ»8ÏÑ–Œá1
+npython:S100w"KRename method "ItemGet" to match the regular expression ^[a-z_][a-z0-9_]*$.(ãğÕÃûÿÿÿÿ8ÏÑ–Œá1
+npython:S100‡"ORename method "TemplateGet" to match the regular expression ^[a-z_][a-z0-9_]*$.(Êêµ©8ÏÑ–Œá1
+kpython:S100—"LRename method "GraphGet" to match the regular expression ^[a-z_][a-z0-9_]*$.(Î„Ë»8ÏÑ–Œá1
+jpython:S100§"KRename method "History" to match the regular expression ^[a-z_][a-z0-9_]*$.(ˆ°‘Ä8ĞÑ–Œá1

@@ -1,0 +1,30 @@
+[I 2018-06-18 15:27:03] >>> starting FTP server on 0.0.0.0:21, pid=16204 <<<
+[I 2018-06-18 15:27:03] concurrency model: async
+[I 2018-06-18 15:27:03] masquerade (NAT) address: None
+[I 2018-06-18 15:27:03] passive ports: 2000->2332
+[I 2018-06-18 20:14:35] >>> starting FTP server on 0.0.0.0:21, pid=14912 <<<
+[I 2018-06-18 20:14:35] concurrency model: async
+[I 2018-06-18 20:14:35] masquerade (NAT) address: None
+[I 2018-06-18 20:14:35] passive ports: 2000->2332
+[I 2018-06-18 20:15:00] 127.0.0.1:50773-[] FTP session opened (connect)
+[I 2018-06-18 20:15:00] 127.0.0.1:50773-[anonymous] USER 'anonymous' logged in.
+[I 2018-06-18 20:15:02] 127.0.0.1:50773-[anonymous] CWD d:\ 250
+[I 2018-06-18 20:15:09] 127.0.0.1:50773-[anonymous] CWD d:\ 250
+[I 2018-06-18 20:15:09] 127.0.0.1:50773-[anonymous] DELE d:\δȷ�� 434804.crdownload 550 'Not enough privileges.'
+[I 2018-06-18 20:15:14] 127.0.0.1:50773-[anonymous] CWD d:\BaiduNetdiskDownload 250
+[I 2018-06-18 20:15:19] 127.0.0.1:50773-[anonymous] CWD d:\BaiduNetdiskDownload\quanlideyouxi 250
+[I 2018-06-18 20:20:19] 127.0.0.1:50773-[anonymous] Control connection timed out.
+[I 2018-06-18 20:20:19] 127.0.0.1:50773-[anonymous] FTP session closed (disconnect).
+[I 2018-06-18 21:29:45] >>> starting FTP server on 0.0.0.0:21, pid=6544 <<<
+[I 2018-06-18 21:29:45] concurrency model: async
+[I 2018-06-18 21:29:45] masquerade (NAT) address: None
+[I 2018-06-18 21:29:45] passive ports: 2000->2332
+[I 2018-06-18 21:30:00] 127.0.0.1:51802-[] FTP session opened (connect)
+[I 2018-06-18 21:30:00] 127.0.0.1:51802-[anonymous] USER 'anonymous' logged in.
+[I 2018-06-18 21:30:00] 127.0.0.1:51802-[anonymous] DELE d:\未确认 434804.crdownload 550 'Not enough privileges.'
+[I 2018-06-18 21:35:00] 127.0.0.1:51802-[anonymous] Control connection timed out.
+[I 2018-06-18 21:35:00] 127.0.0.1:51802-[anonymous] FTP session closed (disconnect).
+[I 2018-06-18 21:43:00] >>> starting FTP server on 0.0.0.0:21, pid=4036 <<<
+[I 2018-06-18 21:43:00] concurrency model: async
+[I 2018-06-18 21:43:00] masquerade (NAT) address: None
+[I 2018-06-18 21:43:00] passive ports: 2000->2332

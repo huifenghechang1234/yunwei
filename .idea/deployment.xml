@@ -3,10 +3,10 @@
   <component name="PublishConfigData" autoUpload="Always" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
     <option name="confirmBeforeUploading" value="false" />
     <serverData>
-      <paths name="root@10.0.0.129:22 password">
+      <paths name="10.0.0.199">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/pycharm_project_980" local="$PROJECT_DIR$" />
+            <mapping deploy="/python_program" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

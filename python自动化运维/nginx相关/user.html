@@ -1,0 +1,15 @@
+<!--在这个HTML模板中，{{ user.username }} 和 {{ user.email }} 会被替换为传递给 render_template 函数的 user 字典中的相应值。
+最后，在 if __name__ == '__main__': 块中，我们调用 app.run(debug=True) 来启动Flask开发服务器，并将 debug 参数设置为 True，以便在开发过程中启用调试功能-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>User Profile</h1>
+    <p>Username: {{ user.username }}</p>
+    <p>Email: {{ user.email }}</p>
+</body>
+</html>

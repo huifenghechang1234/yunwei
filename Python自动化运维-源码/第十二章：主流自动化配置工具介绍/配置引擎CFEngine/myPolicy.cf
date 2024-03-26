@@ -1,0 +1,7 @@
+bundle agent SayHello {
+files:
+      "/tmp/hello.txt"
+        create => "true";
+    reports:
+        "Hello，CFEngine!";
+}

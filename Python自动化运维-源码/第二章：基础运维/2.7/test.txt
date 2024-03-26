@@ -1,0 +1,4 @@
+zhengzheng@wjrcb.com,somenzz@qq.com
+这是一个测试报警
+测试报警信息
+xxx.log

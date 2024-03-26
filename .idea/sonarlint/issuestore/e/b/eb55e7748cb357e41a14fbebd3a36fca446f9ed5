@@ -1,23 +1,0 @@
-
-gpython:S1542$"ORename function "getMemory" to match the regular expression ^[a-z_][a-z0-9_]*$.(º€£
-ipython:S1542+"LRename function "getCpu" to match the regular expression ^[a-z_][a-z0-9_]*$.(—êêúÿÿÿÿ
-Upython:S5655-"=Change this argument; Function "len" expects a different type(Í¥‡‰
-opython:S1178"XRename this local variable "memInfo" to match the regular expression ^[_a-z][a-z0-9_]*$.(¦“‰ğ
-hpython:S15425"PRename function "getMemSize" to match the regular expression ^[a-z_][a-z0-9_]*$.(ŞóÑ‘
-ppython:S1542?"SRename function "getCpuPercent" to match the regular expression ^[a-z_][a-z0-9_]*$.(ì¶¡¦ÿÿÿÿÿ
-spython:S117N"WRename this local variable "finalM" to match the regular expression ^[_a-z][a-z0-9_]*$.(ı˜™ºûÿÿÿÿ
-spython:S117F"WRename this parameter "processName" to match the regular expression ^[_a-z][a-z0-9_]*$.(åÁÂİûÿÿÿÿ
-spython:S117I"WRename this local variable "totalM" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ó÷Ğ¬şÿÿÿÿ
-lpython:S1542F"ORename function "getTotalM" to match the regular expression ^[a-z_][a-z0-9_]*$.(åÁÂİûÿÿÿÿ
-ppython:S117Y"YRename this local variable "finalCPU" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ô—°‘
-npython:S117Q"WRename this parameter "processName" to match the regular expression ^[_a-z][a-z0-9_]*$.(‘¯“Ö
-upython:S117T"YRename this local variable "totalCPU" to match the regular expression ^[_a-z][a-z0-9_]*$.(ãßğ¶ûÿÿÿÿ
-}python:S117X"aRename this local variable "totalCPU_convert" to match the regular expression ^[_a-z][a-z0-9_]*$.(ı‚õíÿÿÿÿÿ
-ipython:S1542Q"QRename function "getTotalCPU" to match the regular expression ^[a-z_][a-z0-9_]*$.(‘¯“Ö
-ppython:S117`"TRename this parameter "caseName" to match the regular expression ^[_a-z][a-z0-9_]*$.(¨™ÀØşÿÿÿÿ
-mpython:S1542`"PRename function "writeExcel" to match the regular expression ^[a-z_][a-z0-9_]*$.(¨™ÀØşÿÿÿÿ
-Bpython:S5806b"+Rename this variable; it shadows a builtin.(µºÙ
-ppython:S117n"TRename this parameter "caseName" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÛâĞùÿÿÿÿ
-tpython:S117n"XRename this parameter "processName1" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÛâĞùÿÿÿÿ
-opython:S1542n"RRename function "getCpuAndMem" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÛâĞùÿÿÿÿ
-;python:S125{"Remove this commented out code.(¿œØóûÿÿÿÿ

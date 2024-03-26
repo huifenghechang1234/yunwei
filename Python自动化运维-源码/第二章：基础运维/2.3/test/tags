@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+LoggingEventHandler	logevent.py	/^from watchdog.events import LoggingEventHandler$/;"	i
+Observer	logevent.py	/^from watchdog.observers import Observer$/;"	i
+datefmt	logevent.py	/^                        datefmt='%Y-%m-%d %H:%M:%S')$/;"	v
+event_handler	logevent.py	/^    event_handler = LoggingEventHandler()$/;"	v
+format	logevent.py	/^                        format='%(asctime)s - %(message)s',$/;"	v
+logging	logevent.py	/^import logging$/;"	i
+observer	logevent.py	/^    observer = Observer()$/;"	v
+path	logevent.py	/^    path = sys.argv[1] if len(sys.argv) > 1 else '.'$/;"	v
+sys	logevent.py	/^import sys$/;"	i
+time	logevent.py	/^import time$/;"	i

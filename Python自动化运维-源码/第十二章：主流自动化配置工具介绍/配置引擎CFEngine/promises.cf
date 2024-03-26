@@ -1,0 +1,15 @@
+body common control
+{
+    bundlesequence => {
+      #Agent bundle
+      "cfe_internal_management", # See cfe_internal/CFE_cfengine.cf
+      "service_catalogue",
+      "SayHello"
+    };
+
+    inputs => {
+               "services/file_change.cf",
+               "myPolicy.cf"
+              };
+    version => "Community Promises.cf 1.0.0";
+}

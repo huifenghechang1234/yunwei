@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <h1>{{message}}</h1>
+        <input type="text" placeholder="请输入shell命令" style="width: 235px; height: 20px;" v-model="command" v-on:keyup.enter="submit" />
+        <button type="button" v-on:click="submit">执行</button>
+        <div style="white-space: pre-wrap;">{{ command_result }}</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello websocket!',
+                socket_uri: 'ws://localhost:8765',
+                socket: '',
+                command: '',
+                command_result: ''
+            },
+            mounted: function () {
+                this.init();
+            },
+            methods: {
+                init() {
+                    if (typeof (WebSocket) === "undefined") {
+                        alert("您的浏览器不支持socket")
+                    } else {
+                        // 实例化socket
+                        this.socket = new WebSocket(this.socket_uri)
+                        // 监听socket连接
+                        this.socket.onopen = this.open
+                        // 监听socket错误信息
+                        this.socket.onerror = this.error
+                        // 监听socket消息
+                        this.socket.onmessage = this.getMessage
+                    }
+                },
+                open() { console.log("socket连接成功") },
+                error() { console.log("socket连接错误") },
+                getMessage(msg) {
+                    console.log(msg.data);
+                    this.command_result += msg.data +'\n';
+                },
+                submit(event) {
+                    this.socket.send(this.command);
+                    this.command_result = '';
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

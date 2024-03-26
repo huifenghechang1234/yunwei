@@ -1,6 +1,0 @@
-
-hpython:S1192V"KDefine a constant instead of duplicating this literal '10.0.0.0/8' 4 times.(—âÍÿÿÿÿÿ
-mpython:S1192†"ODefine a constant instead of duplicating this literal "è¾“å‡ºipåœ°å€" 4 times.(ê›Áûÿÿÿÿ
-tpython:S11928"\Define a constant instead of duplicating this literal '2001:0658:022a:cafe:0200::1' 4 times.(äŞÌ«
-lpython:S1192h"ODefine a constant instead of duplicating this literal '192.168.1.0/24' 7 times.(æ¶¾šúÿÿÿÿ
-dpython:S1192s"LDefine a constant instead of duplicating this literal '10.0.0.0/24' 3 times.(Ôß÷¡
