@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Python自动化运维-源码/第三章：多进程操作/3.1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python自动化运维项目/dromara" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python自动化运维项目/wgcloud" vcs="Git" />
   </component>
 </project>

@@ -45,17 +45,40 @@ I love animals. They taste delicious.
 #     print()  # print 空内容，就是输出一个换行
 
 
-for i in range(1, 6):
-    print("语句1")
-    continue
-    print("语句2")
-
-print("***********************************************")
-for i in range(1, 6):
-    print("语句1")
-    break
-    print("语句2")
-
-
+# for i in range(1, 6):
+#     print("语句1")
+#     continue
+#     print("语句2")
+#
+# print("***********************************************")
+# for i in range(1, 6):
+#     print("语句1")
+#     break
+#     print("语句2")
 
 
+
+
+# import copy
+# a = [1, 2, [3, 4]]
+# b = copy.copy(a)     # 浅拷贝
+#
+# print(id(a[2]))      # 2081284712576
+# a[2][1] = 4          # 修改a中[3, 4]元素，将3修改为4
+# print(a)             # 打印结果：[1, 2, [3, 4]]
+# print(b)             # 打印结果：[1, 2, [3, 4]]
+# print(id(a[2]))      # 打印结果：2081284712576
+# print(id(b[2]))      # 打印结果：2081284712576
+
+
+def greet(name, *, greeting="Hello"):
+    print(f"{greeting}, {name}!")
+
+
+# 正确调用方式
+greet("Alice", greeting="Hi")
+# 输出: Hi, Alice!
+
+# 错误调用方式（会抛出 TypeError）
+greet("Alice", "Hi")
+# TypeError: greet() takes 1 positional argument but 2 were given

@@ -1,0 +1,9 @@
+
+zpython:S1845"bRename field "status" to prevent any misunderstanding/clash with field "STATUS" defined on line 19(°Æê©
+Mpython:S65531"0Replace this "null=True" flag with "blank=True".(¤ÂÑòúÿÿÿÿ
+Mpython:S65532"0Replace this "null=True" flag with "blank=True".(±ˆûÿÿÿÿ
+Mpython:S6553E"0Replace this "null=True" flag with "blank=True".(¼«Â–şÿÿÿÿ
+Hpython:S6553F"0Replace this "null=True" flag with "blank=True".(âÛäë
+Hpython:S6553G"0Replace this "null=True" flag with "blank=True".(¢¸á¢
+Hpython:S6553H"0Replace this "null=True" flag with "blank=True".(é¹œ­
+Hpython:S6553I"0Replace this "null=True" flag with "blank=True".(Í›¿é
